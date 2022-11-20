@@ -23,6 +23,7 @@ import {
   Header
 } from 'react-native/Libraries/NewAppScreen';
 import { Formulario } from './components/Formulario';
+import ListadoInscripciones from './components/ListadoInscripciones';
 
 
 
@@ -49,7 +50,7 @@ const App: () => Node = () => {
           }}>
         
           <Formulario/>
-          
+          <ListadoInscripciones/>
         </View>
       </ScrollView>
     </SafeAreaView>
